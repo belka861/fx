@@ -171,8 +171,8 @@ while True:
 		print (co.text)
 		ph=PhoneNumber(co.text)
 		tn=ph.get_number(full=False)
-		tnf=ph.get_number()
-		_log (tnf)
+#		tnf=ph.get_number()
+#		_log (tnf)
 		_log (tn)
 #		print (tn)
 
@@ -306,7 +306,7 @@ while True:
 
 
 
-#		time.sleep(10)
+		time.sleep(10)
 #	b=driver.find_element_by_xpath('//*[@id="Logout-button"]')
 #	b.click()
 		driver.close()
